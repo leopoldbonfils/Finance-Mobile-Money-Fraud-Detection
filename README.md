@@ -31,10 +31,9 @@ This project uses synthetic transaction data to explore fraud detection using Is
 ## 📊 Dataset
 
 - **Source**:
-- Synthetic Mobile Money Transaction Dataset
   - [Mendeley Data:](https://data.mendeley.com/datasets/zhj366m53p/2?utm_source)
     
-- **Description**: Synthetic mobile money logs
+- **Description**: Synthetic Mobile Money Transaction Dataset
 - **Format**: CSV
 - **Size**: ~1.7 million rows, 10 columns
 
