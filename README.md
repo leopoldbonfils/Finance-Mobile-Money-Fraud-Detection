@@ -31,7 +31,7 @@ This project uses synthetic transaction data to explore fraud detection using Is
 ## 📊 Dataset
 
 - **Source**:
-  - [Mendeley Data:](https://data.mendeley.com/datasets/zhj366m53p/2?utm_source)
+  - [Mendeley Data](https://data.mendeley.com/datasets/zhj366m53p/2?utm_source)
     
 - **Description**: Synthetic Mobile Money Transaction Dataset
 - **Format**: CSV
