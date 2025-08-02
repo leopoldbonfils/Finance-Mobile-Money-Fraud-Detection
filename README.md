@@ -6,6 +6,7 @@ A capstone data science project to detect suspicious mobile money transactions i
 
 
 ## 📁 Project Structure
+
 fraud-detection/
 ├── data/ 
 ├── outputs/ # Cleaned data, graphs, and results
@@ -31,7 +32,7 @@ This project uses synthetic transaction data to explore fraud detection using Is
 
 - **Source**:
   - [Microsoft Research Open Data](https://msropendata.com/)
-  - [opendata.rw](https://opendata.rw/)
+    
 - **Description**: Synthetic mobile money logs
 - **Format**: CSV
 - **Size**: ~1.7 million rows, 10 columns
