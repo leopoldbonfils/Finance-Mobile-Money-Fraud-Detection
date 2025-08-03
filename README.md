@@ -122,7 +122,7 @@ Generated key insights:
 
 **1. Data Preparation**
 
-The CSV dataset contains transaction logs with fields like amount, sender/recipient balances, and fraud labels.
+- The CSV dataset contains transaction logs with fields like amount, sender/recipient balances, and fraud labels.
 
 **2. Cleaning & Formatting**
 
