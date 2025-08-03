@@ -73,6 +73,12 @@ This project uses synthetic transaction data to explore fraud detection using Is
 - Power BI Dashboard: Pie chart, column chart, filters
 
 ---
+## 📁 ScreenShoot
+
+<img width="1000" height="400" alt="step_vs_amount" src="https://github.com/user-attachments/assets/ada8e186-e7ea-4f65-8c07-31b9f2689b71" />
+
+
+---
 
 ## 🙋‍♂️ Author
 
