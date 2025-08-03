@@ -95,9 +95,7 @@ Capstone Student – Adventist University of Central Africa
 
 ---
 
-## ⚠️ Disclaimer
 
-This project uses synthetic data for educational purposes only. No real user data is involved.
 
 
 
