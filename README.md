@@ -5,7 +5,7 @@
 A capstone data science project to detect suspicious mobile money transactions in Rwanda using machine learning and anomaly detection techniques.
 
 ---
-🎓 Student and ID: Mugisha Leopold - 26636
+🙋‍♂️ **Student and ID: Mugisha Leopold - 26636**
 
 
 
