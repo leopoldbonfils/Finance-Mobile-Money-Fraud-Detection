@@ -17,13 +17,10 @@ A capstone data science project to detect suspicious mobile money transactions i
 
 fraud-detection/
 ├── data/                  # Raw dataset
-├── outputs/               # Cleaned data, graphs, model results
-├── src/                   # All Python scripts
-├── presentation.pptx      # PowerPoint slides
-├── report.docx            # Word report
-├── powerbi_dashboard.pbix # Power BI dashboard
-└── README.md              # This readme file
 
+├── outputs/               # Cleaned data, graphs, model results
+
+├── src/                   # All Python scripts
 
 ---
 
