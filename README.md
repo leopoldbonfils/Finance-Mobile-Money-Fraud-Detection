@@ -59,7 +59,9 @@ Generated key insights:
 ---
 ✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
 
-- Algorithm: Isolation Forest
+ Algorithm:
+
+- Isolation Forest
 
 - Detected outliers in key numeric columns
 
