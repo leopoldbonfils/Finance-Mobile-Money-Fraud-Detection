@@ -30,11 +30,12 @@ fraud-detection/
 ---
 
 ✅ Step 2: Data Cleaning (src/clean_data.py)
-Removed missing values
 
-Fixed timestamps
+- Removed missing values
 
-Dropped rows with incomplete balances
+- Fixed timestamps
+
+- Dropped rows with incomplete balances
 
 ✅ Output: outputs/cleaned_data.csv
 
@@ -42,20 +43,21 @@ Dropped rows with incomplete balances
 ✅ Step 3: Exploratory Data Analysis (src/eda.py)
 Generated key insights:
 
-📊 Transaction Amount Distribution
+- 📊 Transaction Amount Distribution
 
-📊 Fraud vs Legit Count
+- 📊 Fraud vs Legit Count
 
-📈 Step vs Amount over time
+- 📈 Step vs Amount over time
 
-📦 Boxplot by fraud
+- 📦 Boxplot by fraud
 
-🔥 Correlation Heatmap
+- 🔥 Correlation Heatmap
 
-✅ Saved to: outputs/
+- ✅ Saved to: outputs/
 
 ---
 ✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
+
 Algorithm: Isolation Forest
 
 Detected outliers in key numeric columns
