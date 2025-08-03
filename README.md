@@ -113,7 +113,12 @@ Imported scatterplots from Python
 ---
 
 ✅ Step 7: Reporting
-📝 report.docx: Includes project summary, visualizations, evaluation, and conclusion
+
+📝 report.docx: 
+
+  Includes project summary
+  visualizations, evaluation
+  conclusion
 
 🎞 presentation.pptx: Ready-to-present slide deck
 
@@ -167,7 +172,9 @@ This project uses synthetic transaction data to explore fraud detection using Is
 - **Anomaly Detection** – Isolation Forest
 - **Power BI** – for interactive dashboards
 - **Data Format** – Structured CSV
-
+- **VS Code**
+- **Mendeley Data**
+- **Git & GitHub**
 ---
 
 ## 📊 Visuals
