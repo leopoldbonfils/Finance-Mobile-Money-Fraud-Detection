@@ -61,21 +61,7 @@ Algorithm: Isolation Forest
 Detected outliers in key numeric columns
 
 Added a new column anomaly (1 = suspicious)
-✅ Saved to:
 
-anomaly_data.csv
-
-anomaly_plot.png (scatter)
-
-anomaly_distribution.png (bar)
-
----
-✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
-Algorithm: Isolation Forest
-
-Detected outliers in key numeric columns
-
-Added a new column anomaly (1 = suspicious)
 ✅ Saved to:
 
 anomaly_data.csv
@@ -86,6 +72,7 @@ anomaly_distribution.png (bar)
 
 ---
 ✅ Step 5: Model Evaluation (src/evaluate_model.py)
+
 Compared isFraud (actual) vs anomaly (predicted)
 
 Classification metrics:
@@ -100,6 +87,7 @@ Confusion matrix
 
 ---
 ✅ Step 6: Power BI Dashboard
+
 Created interactive visuals:
 
 Fraud vs Legit count (bar)
@@ -109,6 +97,7 @@ Suspicious transactions over time (line)
 Fraud percentage (card or donut)
 
 Imported scatterplots from Python
+
 ✅ File: powerbi_dashboard.pbix
 
 ---
