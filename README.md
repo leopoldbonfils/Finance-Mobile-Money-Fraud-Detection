@@ -16,11 +16,12 @@ A capstone data science project to detect suspicious mobile money transactions i
 ## 📁 Project Structure
 
 fraud-detection/
-├── data/                  # Raw dataset
 
-├── outputs/               # Cleaned data, graphs, model results
+├── data/                                 # Raw dataset
 
-├── src/                   # All Python scripts
+├── outputs/                              # Cleaned data, graphs, model results
+
+├── src/                                  # All Python scripts
 
 ---
 
