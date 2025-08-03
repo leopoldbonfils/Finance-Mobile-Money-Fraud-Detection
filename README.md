@@ -13,7 +13,11 @@ A capstone data science project to detect suspicious mobile money transactions i
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure and steps
+
+## ✅ Project Steps
+
+✅ Step 1: Project Folder Setup
 
 fraud-detection/
 
@@ -22,6 +26,120 @@ fraud-detection/
 ├── outputs/                              # Cleaned data, graphs, model results
 
 ├── src/                                  # All Python scripts
+
+---
+## ✅ Project Steps
+
+✅ Step 2: Data Cleaning (src/clean_data.py)
+Removed missing values
+
+Fixed timestamps
+
+Dropped rows with incomplete balances
+
+✅ Output: outputs/cleaned_data.csv
+
+---
+✅ Step 3: Exploratory Data Analysis (src/eda.py)
+Generated key insights:
+
+📊 Transaction Amount Distribution
+
+📊 Fraud vs Legit Count
+
+📈 Step vs Amount over time
+
+📦 Boxplot by fraud
+
+🔥 Correlation Heatmap
+✅ Saved to: outputs/
+
+---
+✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
+Algorithm: Isolation Forest
+
+Detected outliers in key numeric columns
+
+Added a new column anomaly (1 = suspicious)
+✅ Saved to:
+
+anomaly_data.csv
+
+anomaly_plot.png (scatter)
+
+anomaly_distribution.png (bar)
+
+---
+✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
+Algorithm: Isolation Forest
+
+Detected outliers in key numeric columns
+
+Added a new column anomaly (1 = suspicious)
+✅ Saved to:
+
+anomaly_data.csv
+
+anomaly_plot.png (scatter)
+
+anomaly_distribution.png (bar)
+
+---
+✅ Step 5: Model Evaluation (src/evaluate_model.py)
+Compared isFraud (actual) vs anomaly (predicted)
+
+Classification metrics:
+
+Precision
+
+Recall
+
+F1-score
+
+Confusion matrix
+
+---
+✅ Step 6: Power BI Dashboard
+Created interactive visuals:
+
+Fraud vs Legit count (bar)
+
+Suspicious transactions over time (line)
+
+Fraud percentage (card or donut)
+
+Imported scatterplots from Python
+✅ File: powerbi_dashboard.pbix
+
+---
+
+✅ Step 7: Reporting
+📝 report.docx: Includes project summary, visualizations, evaluation, and conclusion
+
+🎞 presentation.pptx: Ready-to-present slide deck
+
+---
+⚙️ How It Works
+Data Preparation
+The CSV dataset contains transaction logs with fields like amount, sender/recipient balances, and fraud labels.
+
+Cleaning & Formatting
+We clean missing values, fix datatypes (e.g., timestamps), and remove noisy rows.
+
+Exploratory Analysis (EDA)
+We use seaborn and matplotlib to understand how transaction patterns behave, both for legit and fraudulent activity.
+
+Anomaly Detection with Isolation Forest
+We train a model to detect outliers based on transaction features — without using fraud labels. These outliers are tagged as suspicious.
+
+Model Evaluation
+The detected anomalies are compared against true frauds using F1-score and other metrics to measure how accurate the model is.
+
+Power BI Dashboards
+Cleaned and enriched data is visualized in Power BI to generate real-time insights into fraud patterns and trends.
+
+Final Reports
+All insights, visuals, and findings are compiled into a Word report and PowerPoint for sharing or presentation.
 
 ---
 
@@ -41,22 +159,6 @@ This project uses synthetic transaction data to explore fraud detection using Is
 - 📊 Dataset: Synthetic Mobile Money Transaction Dataset
 - **Format**: CSV
 - **Size**: 1.7 million rows, 10 columns
-
----
-
-## ✅ Project Steps
-
-| Step | Description                             | Status    |
-|------|-----------------------------------------|-----------|
-| 1️⃣   | Folder Structure Setup                  | ✅ Done   |
-| 2️⃣   | Data Cleaning (Python)                  | ✅ Done   |
-| 3️⃣   | Exploratory Data Analysis (EDA)         | ✅ Done   |
-| 4️⃣   | Anomaly Detection (Isolation Forest)    | ✅ Done   |
-| 5️⃣   | Model Evaluation                        | ✅ Done   |
-| 6️⃣   | PowerPoint Presentation                 | ✅ Done   |
-| 7️⃣   | Power BI Dashboard                      | ✅ Done   |
-| 8️⃣   | Word Report                             | 🔜 Coming | ////////////////////////////////////////////
-| 9️⃣   | README & Packaging                      | ✅ Done   |
 
 ---
 
@@ -91,17 +193,5 @@ This project uses synthetic transaction data to explore fraud detection using Is
 
 
 ---
-
-## 🙋‍♂️ Author
-
-**Leopold Mugisha**  
-Capstone Student – Adventist University of Central Africa  
-📍 Rwanda  
-
----
-
-
-
-
 
 Python
