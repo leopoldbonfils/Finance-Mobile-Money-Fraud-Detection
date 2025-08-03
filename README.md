@@ -198,5 +198,10 @@ This project uses synthetic transaction data to explore fraud detection using Is
 
 
 ---
+### 📁 Download Project Files from Google Drive
+
+To access large files that are not hosted directly on GitHub (e.g., cleaned data, PowerPoint, Word report):
+
+https://drive.google.com/drive/folders/1Zz_H8KSwZ7szYjaz3uFgA74tGdE8iTyL?usp=sharing
 
 Python
