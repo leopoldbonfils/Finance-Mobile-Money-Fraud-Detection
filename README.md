@@ -28,7 +28,6 @@ fraud-detection/
 ├── src/                                  # All Python scripts
 
 ---
-## ✅ Project Steps
 
 ✅ Step 2: Data Cleaning (src/clean_data.py)
 Removed missing values
