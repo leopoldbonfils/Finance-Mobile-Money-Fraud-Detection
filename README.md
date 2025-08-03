@@ -7,7 +7,7 @@ A capstone data science project to detect suspicious mobile money transactions i
 ---
 🎓 Student and ID: Mugisha Leopold - 26636
 
-📂 Tools Used: Python, Power BI, Pandas
+
 
 📊 Dataset: Synthetic Mobile Money Transaction Dataset
 
@@ -41,7 +41,7 @@ This project uses synthetic transaction data to explore fraud detection using Is
 - **Source**:
   - [Mendeley Data](https://data.mendeley.com/datasets/zhj366m53p/2?utm_source)
     
-- **Description**: Synthetic Mobile Money Transaction Dataset
+- 📊 Dataset: Synthetic Mobile Money Transaction Dataset
 - **Format**: CSV
 - **Size**: ~1.7 million rows, 10 columns
 
