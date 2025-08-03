@@ -37,10 +37,11 @@ fraud-detection/
 
 - Dropped rows with incomplete balances
 
-✅ Output: outputs/cleaned_data.csv
+- ✅ Output: outputs/cleaned_data.csv
 
 ---
 ✅ Step 3: Exploratory Data Analysis (src/eda.py)
+
 Generated key insights:
 
 - 📊 Transaction Amount Distribution
@@ -58,47 +59,47 @@ Generated key insights:
 ---
 ✅ Step 4: Anomaly Detection (src/anomaly_detection.py)
 
-Algorithm: Isolation Forest
+- Algorithm: Isolation Forest
 
-Detected outliers in key numeric columns
+- Detected outliers in key numeric columns
 
-Added a new column anomaly (1 = suspicious)
+- Added a new column anomaly (1 = suspicious)
 
 ✅ Saved to:
 
-anomaly_data.csv
+- anomaly_data.csv
 
-anomaly_plot.png (scatter)
+- anomaly_plot.png (scatter)
 
-anomaly_distribution.png (bar)
+- anomaly_distribution.png (bar)
 
 ---
 ✅ Step 5: Model Evaluation (src/evaluate_model.py)
 
-Compared isFraud (actual) vs anomaly (predicted)
+- Compared isFraud (actual) vs anomaly (predicted)
 
-Classification metrics:
+- Classification metrics:
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1-score
+- F1-score
 
-Confusion matrix
+- Confusion matrix
 
 ---
 ✅ Step 6: Power BI Dashboard
 
-Created interactive visuals:
+- Created interactive visuals:
 
-Fraud vs Legit count (bar)
+- Fraud vs Legit count (bar)
 
-Suspicious transactions over time (line)
+- Suspicious transactions over time (line)
 
-Fraud percentage (card or donut)
+- Fraud percentage (card or donut)
 
-Imported scatterplots from Python
+- Imported scatterplots from Python
 
 ✅ File: powerbi_dashboard.pbix
 
@@ -108,9 +109,9 @@ Imported scatterplots from Python
 
 📝 report.docx: 
 
-  Includes project summary
-  visualizations, evaluation
-  conclusion
+  - Includes project summary
+  - visualizations, evaluation
+  - conclusion
 
 🎞 presentation.pptx: Ready-to-present slide deck
 
@@ -123,23 +124,23 @@ The CSV dataset contains transaction logs with fields like amount, sender/recipi
 
 **2. Cleaning & Formatting**
 
-We clean missing values, fix datatypes (e.g., timestamps), and remove noisy rows.
+- We clean missing values, fix datatypes (e.g., timestamps), and remove noisy rows.
 
 **3. Exploratory Analysis (EDA)**
 
-We use seaborn and matplotlib to understand how transaction patterns behave, both for legit and fraudulent activity.
+- We use seaborn and matplotlib to understand how transaction patterns behave, both for legit and fraudulent activity.
 
 **4. Anomaly Detection with Isolation Forest**
 
-We train a model to detect outliers based on transaction features — without using fraud labels. These outliers are tagged as suspicious.
+- We train a model to detect outliers based on transaction features — without using fraud labels. These outliers are tagged as suspicious.
 
 **5. Model Evaluation**
 
-The detected anomalies are compared against true frauds using F1-score and other metrics to measure how accurate the model is.
+- The detected anomalies are compared against true frauds using F1-score and other metrics to measure how accurate the model is.
 
 **7. Power BI Dashboards**
 
-Cleaned and enriched data is visualized in Power BI to generate real-time insights into fraud patterns and trends.
+- Cleaned and enriched data is visualized in Power BI to generate real-time insights into fraud patterns and trends.
 
 ---
 
