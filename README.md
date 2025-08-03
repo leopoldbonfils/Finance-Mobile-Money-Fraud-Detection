@@ -83,15 +83,6 @@ This project uses synthetic transaction data to explore fraud detection using Is
 <img width="500" height="400" alt="confusion_matrix" src="https://github.com/user-attachments/assets/cc8c8a85-c88e-45e6-b18e-3891cc01b767" />
 <img width="1000" height="600" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/66d1eb92-75a2-4555-8b27-701959ef403a" />
 <img width="600" height="400" alt="fraud_count" src="https://github.com/user-attachments/assets/c67ed5ec-fd98-4e97-9443-01a14ae9c3b9" />
-<img width="1000" height="400" alt="step_vs_amount" src="https://github.com/user-attachments/assets/2621b78f-617d-405c-919e-da696d640cab" />
-
-
-
-
-
-
-
-
 
 
 ---
