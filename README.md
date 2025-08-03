@@ -123,27 +123,25 @@ Imported scatterplots from Python
 🎞 presentation.pptx: Ready-to-present slide deck
 
 ---
-⚙️ How It Works
-Data Preparation
+**⚙️ How It Works**
+
+**1. Data Preparation**
 The CSV dataset contains transaction logs with fields like amount, sender/recipient balances, and fraud labels.
 
-Cleaning & Formatting
+**2. Cleaning & Formatting**
 We clean missing values, fix datatypes (e.g., timestamps), and remove noisy rows.
 
-Exploratory Analysis (EDA)
+**3. Exploratory Analysis (EDA)**
 We use seaborn and matplotlib to understand how transaction patterns behave, both for legit and fraudulent activity.
 
-Anomaly Detection with Isolation Forest
+**4. Anomaly Detection with Isolation Forest**
 We train a model to detect outliers based on transaction features — without using fraud labels. These outliers are tagged as suspicious.
 
-Model Evaluation
+**5. Model Evaluation**
 The detected anomalies are compared against true frauds using F1-score and other metrics to measure how accurate the model is.
 
-Power BI Dashboards
+**7. Power BI Dashboards**
 Cleaned and enriched data is visualized in Power BI to generate real-time insights into fraud patterns and trends.
-
-Final Reports
-All insights, visuals, and findings are compiled into a Word report and PowerPoint for sharing or presentation.
 
 ---
 
