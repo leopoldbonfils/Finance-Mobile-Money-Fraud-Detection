@@ -17,13 +17,21 @@ A capstone data science project to detect suspicious mobile money transactions i
 
 fraud-detection/
 ├── data/ 
+
 ├── outputs/ # Cleaned data, graphs, and results
+
 ├── src/
+
 │ ├── clean_data.py
+
 │ ├── eda.py
+
 │ ├── anomaly_detection.py
+
 │ └── evaluate_model.py
+
 ├── powerbi_dashboard.pbix # Power BI dashboard file
+
 ├── presentation.pptx # Final project presentation
 
 ---
@@ -43,7 +51,7 @@ This project uses synthetic transaction data to explore fraud detection using Is
     
 - 📊 Dataset: Synthetic Mobile Money Transaction Dataset
 - **Format**: CSV
-- **Size**: ~1.7 million rows, 10 columns
+- **Size**: 1.7 million rows, 10 columns
 
 ---
 
