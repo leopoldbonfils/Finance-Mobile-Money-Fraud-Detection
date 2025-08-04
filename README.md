@@ -188,6 +188,7 @@ This project uses synthetic transaction data to explore fraud detection using Is
 ---
 ## 📁 ScreenShoot
 
+<img width="960" height="500" alt="Power BI dashboard" src="https://github.com/user-attachments/assets/d2fac9cf-d45e-4a07-b17d-d4911a10ed5d" />
 <img width="1000" height="400" alt="step_vs_amount" src="https://github.com/user-attachments/assets/ada8e186-e7ea-4f65-8c07-31b9f2689b71" />
 <img width="800" height="400" alt="amount_distribution" src="https://github.com/user-attachments/assets/92c8dca0-a9f5-413d-ba02-de3b33f7c0c7" />
 <img width="600" height="400" alt="anomaly_distribution" src="https://github.com/user-attachments/assets/095ab633-0039-42f3-aa21-d4218acc2b12" />
